@@ -1,6 +1,6 @@
 # IT-2321 Lab 6: Forms, Fetch, and Live Data
 
-**Week 12 | Reading: Eloquent JavaScript, Chapters 10, 11, and 18**
+**Reading: Eloquent JavaScript, Chapters 10, 11, and 18**
 
 This lab is practice with validating a form, fetching live JSON with the Fetch API, and displaying the result on the page.
 
