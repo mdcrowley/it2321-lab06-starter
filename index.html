@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT-2321 Lab 6</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Lab 6: Forms, Fetch, and Live Data</h1>
+
+  <form id="searchForm" novalidate>
+    <label for="term">Search term</label>
+    <input id="term" name="term" type="text" placeholder="Type something to look up">
+    <p id="termError" class="error" hidden>Please enter a search term.</p>
+    <button type="submit">Fetch data</button>
+  </form>
+
+  <div id="output">Results will appear here.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
